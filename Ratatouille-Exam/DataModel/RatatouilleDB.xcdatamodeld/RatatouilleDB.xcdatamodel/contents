@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EArea" representedClassName="EArea" syncable="YES" codeGenerationType="class">
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strFlag" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ECategory" representedClassName="ECategory" syncable="YES" codeGenerationType="class">
+        <attribute name="idCategory" optional="YES" attributeType="String"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strCategoryDescription" optional="YES" attributeType="String"/>
+        <attribute name="strCategoryThumb" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EIngredient" representedClassName="EIngredient" syncable="YES" codeGenerationType="class">
+        <attribute name="idIngredient" optional="YES" attributeType="String"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="strDescription" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EMeal" representedClassName="EMeal" syncable="YES" codeGenerationType="class">
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isDel" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isFav" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+    </entity>
+</model>

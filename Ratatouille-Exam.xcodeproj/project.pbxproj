@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AD6E7F2B1CC5D300789F3F /* Ratatouille_ExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E7E2B1CC5D300789F3F /* Ratatouille_ExamApp.swift */; };
+		04AD6E812B1CC5D400789F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E802B1CC5D400789F3F /* ContentView.swift */; };
+		04AD6E832B1CC5D700789F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD6E822B1CC5D700789F3F /* Assets.xcassets */; };
+		04AD6E872B1CC5D700789F3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD6E862B1CC5D700789F3F /* Preview Assets.xcassets */; };
+		04AD6E8E2B1CC66600789F3F /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E8D2B1CC66600789F3F /* SplashScreen.swift */; };
+		04AD6E982B1CCAF100789F3F /* RatatouilleDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E962B1CCAF100789F3F /* RatatouilleDB.xcdatamodeld */; };
+		04AD6EA12B1CCDE800789F3F /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E992B1CCDE800789F3F /* Ingredient+CoreDataClass.swift */; };
+		04AD6EA22B1CCDE800789F3F /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9A2B1CCDE800789F3F /* Ingredient+CoreDataProperties.swift */; };
+		04AD6EA32B1CCDE800789F3F /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9B2B1CCDE800789F3F /* Category+CoreDataClass.swift */; };
+		04AD6EA42B1CCDE800789F3F /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9C2B1CCDE800789F3F /* Category+CoreDataProperties.swift */; };
+		04AD6EA52B1CCDE800789F3F /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9D2B1CCDE800789F3F /* Meal+CoreDataClass.swift */; };
+		04AD6EA62B1CCDE800789F3F /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9E2B1CCDE800789F3F /* Meal+CoreDataProperties.swift */; };
+		04AD6EA72B1CCDE800789F3F /* Area+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6E9F2B1CCDE800789F3F /* Area+CoreDataClass.swift */; };
+		04AD6EA82B1CCDE800789F3F /* Area+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EA02B1CCDE800789F3F /* Area+CoreDataProperties.swift */; };
+		04AD6EAD2B1CCE9A00789F3F /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EAC2B1CCE9A00789F3F /* Persistance.swift */; };
+		04AD6EB02B1CD0F300789F3F /* CMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EAF2B1CD0F300789F3F /* CMeal.swift */; };
+		04AD6EB22B1CD10D00789F3F /* CCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EB12B1CD10D00789F3F /* CCategory.swift */; };
+		04AD6EB42B1CD11900789F3F /* CArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EB32B1CD11900789F3F /* CArea.swift */; };
+		04AD6EB62B1CD12C00789F3F /* CIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EB52B1CD12C00789F3F /* CIngredient.swift */; };
+		04AD6EB92B1CD1A500789F3F /* MMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EB82B1CD1A500789F3F /* MMeal.swift */; };
+		04AD6EBB2B1CD1B500789F3F /* MCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EBA2B1CD1B500789F3F /* MCategory.swift */; };
+		04AD6EBD2B1CD1C600789F3F /* MArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EBC2B1CD1C600789F3F /* MArea.swift */; };
+		04AD6EBF2B1CD1D400789F3F /* MIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EBE2B1CD1D400789F3F /* MIngredient.swift */; };
+		04AD6EC32B1CF6D100789F3F /* TSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EC22B1CF6D100789F3F /* TSetting.swift */; };
+		04AD6EC72B1CF70700789F3F /* TRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EC62B1CF70700789F3F /* TRecipe.swift */; };
+		04AD6EC92B1CF71300789F3F /* TSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EC82B1CF71300789F3F /* TSearch.swift */; };
+		04AD6ECB2B1CFAE000789F3F /* VArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6ECA2B1CFAE000789F3F /* VArea.swift */; };
+		04AD6ECD2B1CFAFE00789F3F /* VIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6ECC2B1CFAFE00789F3F /* VIngredient.swift */; };
+		04AD6ECF2B1CFB0900789F3F /* VCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6ECE2B1CFB0900789F3F /* VCategory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AD6E7B2B1CC5D300789F3F /* Ratatouille-Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ratatouille-Exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AD6E7E2B1CC5D300789F3F /* Ratatouille_ExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratatouille_ExamApp.swift; sourceTree = "<group>"; };
+		04AD6E802B1CC5D400789F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AD6E822B1CC5D700789F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AD6E842B1CC5D700789F3F /* Ratatouille_Exam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ratatouille_Exam.entitlements; sourceTree = "<group>"; };
+		04AD6E862B1CC5D700789F3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AD6E8D2B1CC66600789F3F /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		04AD6E972B1CCAF100789F3F /* RatatouilleDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RatatouilleDB.xcdatamodel; sourceTree = "<group>"; };
+		04AD6E992B1CCDE800789F3F /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataClass.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Ingredient+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9A2B1CCDE800789F3F /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataProperties.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Ingredient+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9B2B1CCDE800789F3F /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9C2B1CCDE800789F3F /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9D2B1CCDE800789F3F /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Meal+CoreDataClass.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Meal+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9E2B1CCDE800789F3F /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Meal+CoreDataProperties.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Meal+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6E9F2B1CCDE800789F3F /* Area+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Area+CoreDataClass.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Area+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6EA02B1CCDE800789F3F /* Area+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Area+CoreDataProperties.swift"; path = "Ratatouille-Exam/DataModel/SubClasses/Area+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04AD6EAC2B1CCE9A00789F3F /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		04AD6EAF2B1CD0F300789F3F /* CMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMeal.swift; sourceTree = "<group>"; };
+		04AD6EB12B1CD10D00789F3F /* CCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCategory.swift; sourceTree = "<group>"; };
+		04AD6EB32B1CD11900789F3F /* CArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CArea.swift; sourceTree = "<group>"; };
+		04AD6EB52B1CD12C00789F3F /* CIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIngredient.swift; sourceTree = "<group>"; };
+		04AD6EB82B1CD1A500789F3F /* MMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMeal.swift; sourceTree = "<group>"; };
+		04AD6EBA2B1CD1B500789F3F /* MCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCategory.swift; sourceTree = "<group>"; };
+		04AD6EBC2B1CD1C600789F3F /* MArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MArea.swift; sourceTree = "<group>"; };
+		04AD6EBE2B1CD1D400789F3F /* MIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIngredient.swift; sourceTree = "<group>"; };
+		04AD6EC22B1CF6D100789F3F /* TSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSetting.swift; sourceTree = "<group>"; };
+		04AD6EC62B1CF70700789F3F /* TRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRecipe.swift; sourceTree = "<group>"; };
+		04AD6EC82B1CF71300789F3F /* TSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSearch.swift; sourceTree = "<group>"; };
+		04AD6ECA2B1CFAE000789F3F /* VArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VArea.swift; sourceTree = "<group>"; };
+		04AD6ECC2B1CFAFE00789F3F /* VIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIngredient.swift; sourceTree = "<group>"; };
+		04AD6ECE2B1CFB0900789F3F /* VCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCategory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AD6E782B1CC5D300789F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AD6E722B1CC5D300789F3F = {
+			isa = PBXGroup;
+			children = (
+				04AD6E7D2B1CC5D300789F3F /* Ratatouille-Exam */,
+				04AD6E7C2B1CC5D300789F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AD6E7C2B1CC5D300789F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6E7B2B1CC5D300789F3F /* Ratatouille-Exam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AD6E7D2B1CC5D300789F3F /* Ratatouille-Exam */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EC02B1CF55200789F3F /* Views */,
+				04AD6EB72B1CD17800789F3F /* APIModels */,
+				04AD6EAE2B1CD0B300789F3F /* Controllers */,
+				04AD6E952B1CCA9800789F3F /* DataModel */,
+				04AD6E7E2B1CC5D300789F3F /* Ratatouille_ExamApp.swift */,
+				04AD6E822B1CC5D700789F3F /* Assets.xcassets */,
+				04AD6E842B1CC5D700789F3F /* Ratatouille_Exam.entitlements */,
+				04AD6E852B1CC5D700789F3F /* Preview Content */,
+			);
+			path = "Ratatouille-Exam";
+			sourceTree = "<group>";
+		};
+		04AD6E852B1CC5D700789F3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6E862B1CC5D700789F3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AD6E952B1CCA9800789F3F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EA92B1CCE0A00789F3F /* SubClasses */,
+				04AD6E962B1CCAF100789F3F /* RatatouilleDB.xcdatamodeld */,
+				04AD6EAC2B1CCE9A00789F3F /* Persistance.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		04AD6EA92B1CCE0A00789F3F /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6E9B2B1CCDE800789F3F /* Category+CoreDataClass.swift */,
+				04AD6E9D2B1CCDE800789F3F /* Meal+CoreDataClass.swift */,
+				04AD6E9F2B1CCDE800789F3F /* Area+CoreDataClass.swift */,
+				04AD6E9C2B1CCDE800789F3F /* Category+CoreDataProperties.swift */,
+				04AD6EA02B1CCDE800789F3F /* Area+CoreDataProperties.swift */,
+				04AD6E9E2B1CCDE800789F3F /* Meal+CoreDataProperties.swift */,
+				04AD6E9A2B1CCDE800789F3F /* Ingredient+CoreDataProperties.swift */,
+				04AD6E992B1CCDE800789F3F /* Ingredient+CoreDataClass.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		04AD6EAE2B1CD0B300789F3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EAF2B1CD0F300789F3F /* CMeal.swift */,
+				04AD6EB12B1CD10D00789F3F /* CCategory.swift */,
+				04AD6EB32B1CD11900789F3F /* CArea.swift */,
+				04AD6EB52B1CD12C00789F3F /* CIngredient.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04AD6EB72B1CD17800789F3F /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EB82B1CD1A500789F3F /* MMeal.swift */,
+				04AD6EBA2B1CD1B500789F3F /* MCategory.swift */,
+				04AD6EBC2B1CD1C600789F3F /* MArea.swift */,
+				04AD6EBE2B1CD1D400789F3F /* MIngredient.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		04AD6EC02B1CF55200789F3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EC52B1CF6F000789F3F /* Searches */,
+				04AD6EC42B1CF6DC00789F3F /* Recipes */,
+				04AD6EC12B1CF61900789F3F /* Settings */,
+				04AD6E8D2B1CC66600789F3F /* SplashScreen.swift */,
+				04AD6E802B1CC5D400789F3F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04AD6EC12B1CF61900789F3F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EC22B1CF6D100789F3F /* TSetting.swift */,
+				04AD6ECA2B1CFAE000789F3F /* VArea.swift */,
+				04AD6ECC2B1CFAFE00789F3F /* VIngredient.swift */,
+				04AD6ECE2B1CFB0900789F3F /* VCategory.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04AD6EC42B1CF6DC00789F3F /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EC62B1CF70700789F3F /* TRecipe.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		04AD6EC52B1CF6F000789F3F /* Searches */ = {
+			isa = PBXGroup;
+			children = (
+				04AD6EC82B1CF71300789F3F /* TSearch.swift */,
+			);
+			path = Searches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AD6E7A2B1CC5D300789F3F /* Ratatouille-Exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AD6E8A2B1CC5D700789F3F /* Build configuration list for PBXNativeTarget "Ratatouille-Exam" */;
+			buildPhases = (
+				04AD6E772B1CC5D300789F3F /* Sources */,
+				04AD6E782B1CC5D300789F3F /* Frameworks */,
+				04AD6E792B1CC5D300789F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ratatouille-Exam";
+			productName = "Ratatouille-Exam";
+			productReference = 04AD6E7B2B1CC5D300789F3F /* Ratatouille-Exam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AD6E732B1CC5D300789F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04AD6E7A2B1CC5D300789F3F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 04AD6E762B1CC5D300789F3F /* Build configuration list for PBXProject "Ratatouille-Exam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AD6E722B1CC5D300789F3F;
+			productRefGroup = 04AD6E7C2B1CC5D300789F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AD6E7A2B1CC5D300789F3F /* Ratatouille-Exam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AD6E792B1CC5D300789F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD6E872B1CC5D700789F3F /* Preview Assets.xcassets in Resources */,
+				04AD6E832B1CC5D700789F3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AD6E772B1CC5D300789F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD6EA82B1CCDE800789F3F /* Area+CoreDataProperties.swift in Sources */,
+				04AD6EB22B1CD10D00789F3F /* CCategory.swift in Sources */,
+				04AD6EC92B1CF71300789F3F /* TSearch.swift in Sources */,
+				04AD6EB42B1CD11900789F3F /* CArea.swift in Sources */,
+				04AD6EA22B1CCDE800789F3F /* Ingredient+CoreDataProperties.swift in Sources */,
+				04AD6EB02B1CD0F300789F3F /* CMeal.swift in Sources */,
+				04AD6E8E2B1CC66600789F3F /* SplashScreen.swift in Sources */,
+				04AD6EC72B1CF70700789F3F /* TRecipe.swift in Sources */,
+				04AD6EA32B1CCDE800789F3F /* Category+CoreDataClass.swift in Sources */,
+				04AD6EA52B1CCDE800789F3F /* Meal+CoreDataClass.swift in Sources */,
+				04AD6EBD2B1CD1C600789F3F /* MArea.swift in Sources */,
+				04AD6E812B1CC5D400789F3F /* ContentView.swift in Sources */,
+				04AD6EAD2B1CCE9A00789F3F /* Persistance.swift in Sources */,
+				04AD6EBB2B1CD1B500789F3F /* MCategory.swift in Sources */,
+				04AD6EB62B1CD12C00789F3F /* CIngredient.swift in Sources */,
+				04AD6ECB2B1CFAE000789F3F /* VArea.swift in Sources */,
+				04AD6EBF2B1CD1D400789F3F /* MIngredient.swift in Sources */,
+				04AD6ECD2B1CFAFE00789F3F /* VIngredient.swift in Sources */,
+				04AD6ECF2B1CFB0900789F3F /* VCategory.swift in Sources */,
+				04AD6E982B1CCAF100789F3F /* RatatouilleDB.xcdatamodeld in Sources */,
+				04AD6EA72B1CCDE800789F3F /* Area+CoreDataClass.swift in Sources */,
+				04AD6EA12B1CCDE800789F3F /* Ingredient+CoreDataClass.swift in Sources */,
+				04AD6EC32B1CF6D100789F3F /* TSetting.swift in Sources */,
+				04AD6E7F2B1CC5D300789F3F /* Ratatouille_ExamApp.swift in Sources */,
+				04AD6EA62B1CCDE800789F3F /* Meal+CoreDataProperties.swift in Sources */,
+				04AD6EB92B1CD1A500789F3F /* MMeal.swift in Sources */,
+				04AD6EA42B1CCDE800789F3F /* Category+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04AD6E882B1CC5D700789F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AD6E892B1CC5D700789F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04AD6E8B2B1CC5D700789F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ratatouille-Exam/Ratatouille_Exam.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratatouille-Exam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotatouille.Ratatouille-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AD6E8C2B1CC5D700789F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ratatouille-Exam/Ratatouille_Exam.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratatouille-Exam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rotatouille.Ratatouille-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AD6E762B1CC5D300789F3F /* Build configuration list for PBXProject "Ratatouille-Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AD6E882B1CC5D700789F3F /* Debug */,
+				04AD6E892B1CC5D700789F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AD6E8A2B1CC5D700789F3F /* Build configuration list for PBXNativeTarget "Ratatouille-Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AD6E8B2B1CC5D700789F3F /* Debug */,
+				04AD6E8C2B1CC5D700789F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04AD6E962B1CCAF100789F3F /* RatatouilleDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04AD6E972B1CCAF100789F3F /* RatatouilleDB.xcdatamodel */,
+			);
+			currentVersion = 04AD6E972B1CCAF100789F3F /* RatatouilleDB.xcdatamodel */;
+			path = RatatouilleDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04AD6E732B1CC5D300789F3F /* Project object */;
+}
